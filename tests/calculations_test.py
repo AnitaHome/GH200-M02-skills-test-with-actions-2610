@@ -33,7 +33,7 @@ def test_area_of_circle_zero_radius():
     # Assert
     assert result == 0
 
-
+   
 def test_area_of_circle_negative_radius():
     """Test that a negative radius is rejected."""
     with pytest.raises(ValueError, match="Radius cannot be negative"):
